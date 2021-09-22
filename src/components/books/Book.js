@@ -1,4 +1,5 @@
 import { Card, Button } from 'react-bootstrap';
+import { MainBtn } from '../styles/homeStyles';
 
 const Book = ({ id, title, author, cover }) => {
   return (
@@ -12,6 +13,7 @@ const Book = ({ id, title, author, cover }) => {
           </Card.Text>
           <Button variant="warning">Edit</Button>
           <Button variant="danger">Delete</Button>
+          <MainBtn>Show</MainBtn>
         </Card.Body>
       </Card>
     </>
